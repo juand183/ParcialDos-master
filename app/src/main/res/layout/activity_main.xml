@@ -15,9 +15,11 @@
 
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
+        android:layout_height="215dp"
+        android:layout_margin="16dp"
+        android:onClick="siguiente"
         android:src="@drawable/plus"
-        android:layout_margin="16dp" />
+        app:layout_anchor="@+id/id_rcv_food"
+        app:layout_anchorGravity="left|bottom" />
 
 </android.support.design.widget.CoordinatorLayout>
